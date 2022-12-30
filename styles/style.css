@@ -28,13 +28,31 @@
 
 .section1 {
     font-size: 48px;
+    font-weight: bolder;
     color: #F9FAF8;
     display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
 }
 
 .section1 .subtext {
     font-size: 18px;
+    font-weight: normal;
     color: #E5E7EB;
+}
+
+.left {
+    width: 400px;
+}
+
+.img {
+    width: 400px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
 }
 
 body {
@@ -55,4 +73,16 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 8px 25px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
 }
