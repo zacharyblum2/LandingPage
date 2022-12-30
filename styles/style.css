@@ -1,4 +1,4 @@
-.header, .footer {
+.header, .footer, .section1 {
     background-color: #1F2937;
 }
 
@@ -9,6 +9,8 @@
     font-size: 24px; /* This will apply to the header and li, however change li later */
     font-weight: bold; 
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 .footer {
@@ -19,6 +21,21 @@
     color: #E5E7EB;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.section1 .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 body {
     display: flex;
