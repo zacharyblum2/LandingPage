@@ -55,6 +55,28 @@
     background-color: grey;
 }
 
+.section2 {
+    padding: 50px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.cards {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+}
+
 body {
     display: flex;
     flex-direction: column;
