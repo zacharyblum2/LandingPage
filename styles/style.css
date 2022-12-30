@@ -1,0 +1,17 @@
+.header, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
