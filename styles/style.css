@@ -46,12 +46,12 @@
     width: 400px;
 }
 
-.img {
+img {
     width: 400px;
+    height: 300px;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 300px;
+    text-align: center;
     background-color: grey;
 }
 
