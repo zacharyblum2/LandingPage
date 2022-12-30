@@ -89,6 +89,31 @@
     padding: 25px 0;
 }
 
+.section3 {
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    margin: 50px;
+    width: 900px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    align-self: center;
+}
+
 body {
     display: flex;
     flex-direction: column;
